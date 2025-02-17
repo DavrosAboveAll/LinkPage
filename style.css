@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: none;
+    padding: 0;
+    overflow: hidden hidden;
+}
+
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+body img{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+
+    width: 20vw;
+}
+body main div#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
