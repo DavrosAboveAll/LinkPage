@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Title;
+    src: url(./Font/CELTG___.TTF);
+}
+@font-face {
+    font-family: Sub;
+    src: url(./Font/WrathStyles.ttf);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,13 +23,22 @@ body{
 body img{
     position: absolute;
     bottom: 0;
-    left: 40%;
-
+    left: 60%;
+    
     width: 20vw;
 }
-body main div#title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body main{
+    margin: 20px 40px;
+}
+body main div#title h1{
+    font-size: 90px;
+    font-family: 'Title', 'san-serif';
+
+    letter-spacing: 6px;
+}
+body main div#title h2{
+    font-size: 30px;
+    font-family: 'Sub', 'san-serif';
+
+    letter-spacing: 4px;
 }
