@@ -1,0 +1,26 @@
+@media (max-width: 500px) {
+    body main div#title h1{
+        font-size: 60px;
+    }
+    body main div#title h2{
+        font-size: 14px;
+    }
+    body main section#links *{
+        font-size: 40px;
+        justify-content: center;
+    }
+    body main{
+        align-items: center;
+    }
+    body img{
+        width: 40vw;
+    }
+}
+@media (max-width: 370px) {
+    body main div#title h1{
+        font-size: 50px;
+    }
+    body main div#title h2{
+        font-size: 10px;
+    }
+}

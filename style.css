@@ -19,6 +19,7 @@
     overflow: hidden hidden;
     color: black;
     text-decoration: none;
+    cursor: default;
 }
 
 body{
@@ -64,6 +65,7 @@ body main section#links *{
 body main section#links a{
     margin: 10px 0px;
     width: 100%;
+    cursor: pointer;
     &:hover{
         color: red;
         transition: color 500ms;
